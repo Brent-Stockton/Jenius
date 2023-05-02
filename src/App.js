@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { lazy, Suspense } from "react";
+import Nav from "./Components/Nav";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
+  const Home = lazy(() => import("./Pages/Home"));
+  const About = lazy(() => import("./Pages/About"));
+  const FAQ = lazy(() => import("./Pages/FAQ"));
+  const Press = lazy(() => import("./Pages/Press"));
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav />
+      <div>
+        <Routes className="r-container">
+          <Route
+            path="/home"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Home />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <About />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/faq"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <FAQ />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/press"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Press />
+              </Suspense>
+            }
+          />
+        </Routes>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
