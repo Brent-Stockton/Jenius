@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Nav.css";
-import About from "../Pages/About";
-import FAQ from "../Pages/FAQ";
-import Press from "../Pages/Press";
 
 const nav = () => {
   return (
@@ -11,15 +8,15 @@ const nav = () => {
       <nav className="nav dt w-100 border-box pa3 ph5-ns bg-light-purple">
         <a className="dtc v-mid w-25 white link dim" href="#" title="Home">
           <img
-            src="../images/JeniusBank-Logo.jpg"
+            src="https://i.ibb.co/b61qSfY/JLogo.jpg"
             className="logo"
-            alt="Site Name"
+            alt="Logo"
           />
         </a>
         <div className="dtc v-mid w-75 tr">
           <Link
             className="link white f6 f5-ns dib mr3 mr4-ns underline-hover hover-green"
-            to="/home"
+            to="/"
             title="Home"
           >
             Home
