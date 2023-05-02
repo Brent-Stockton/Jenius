@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Brent-Stockton/jenius/static/css/main.d43af912.css",
-    "main.js": "/Brent-Stockton/jenius/static/js/main.e45440f8.js",
-    "static/js/787.ce11a4dd.chunk.js": "/Brent-Stockton/jenius/static/js/787.ce11a4dd.chunk.js",
-    "index.html": "/Brent-Stockton/jenius/index.html",
-    "main.d43af912.css.map": "/Brent-Stockton/jenius/static/css/main.d43af912.css.map",
-    "main.e45440f8.js.map": "/Brent-Stockton/jenius/static/js/main.e45440f8.js.map",
-    "787.ce11a4dd.chunk.js.map": "/Brent-Stockton/jenius/static/js/787.ce11a4dd.chunk.js.map"
+    "main.css": "/jenius/static/css/main.d43af912.css",
+    "main.js": "/jenius/static/js/main.cf593682.js",
+    "static/js/787.ce11a4dd.chunk.js": "/jenius/static/js/787.ce11a4dd.chunk.js",
+    "index.html": "/jenius/index.html",
+    "main.d43af912.css.map": "/jenius/static/css/main.d43af912.css.map",
+    "main.cf593682.js.map": "/jenius/static/js/main.cf593682.js.map",
+    "787.ce11a4dd.chunk.js.map": "/jenius/static/js/787.ce11a4dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d43af912.css",
-    "static/js/main.e45440f8.js"
+    "static/js/main.cf593682.js"
   ]
 }
