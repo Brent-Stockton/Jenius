@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Jenius/static/css/main.d43af912.css",
-    "main.js": "/Jenius/static/js/main.216b6268.js",
-    "static/js/787.ce11a4dd.chunk.js": "/Jenius/static/js/787.ce11a4dd.chunk.js",
-    "index.html": "/Jenius/index.html",
-    "main.d43af912.css.map": "/Jenius/static/css/main.d43af912.css.map",
-    "main.216b6268.js.map": "/Jenius/static/js/main.216b6268.js.map",
-    "787.ce11a4dd.chunk.js.map": "/Jenius/static/js/787.ce11a4dd.chunk.js.map"
+    "main.css": "/Brent-Stockton/jenius/static/css/main.d43af912.css",
+    "main.js": "/Brent-Stockton/jenius/static/js/main.e45440f8.js",
+    "static/js/787.ce11a4dd.chunk.js": "/Brent-Stockton/jenius/static/js/787.ce11a4dd.chunk.js",
+    "index.html": "/Brent-Stockton/jenius/index.html",
+    "main.d43af912.css.map": "/Brent-Stockton/jenius/static/css/main.d43af912.css.map",
+    "main.e45440f8.js.map": "/Brent-Stockton/jenius/static/js/main.e45440f8.js.map",
+    "787.ce11a4dd.chunk.js.map": "/Brent-Stockton/jenius/static/js/787.ce11a4dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d43af912.css",
-    "static/js/main.216b6268.js"
+    "static/js/main.e45440f8.js"
   ]
 }
